@@ -1,0 +1,38 @@
+/** Initialisation */
+#a {
+  display: none;
+}
+
+#b {
+  display: none;
+}
+
+#c {
+  display: none;
+}
+
+#d {
+  display: none;
+}
+
+#fail {
+  display: none;
+}
+
+#success {
+  display: none;
+}
+
+#lamborghini {
+  display: none;
+}
+
+#startImage {
+  height: 200px;
+}
+
+.top-buffer { margin-top:20px; }
+
+.thumbnail {
+  min-height: 390px;
+}
