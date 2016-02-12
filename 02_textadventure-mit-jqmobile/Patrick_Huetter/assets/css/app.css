@@ -11,6 +11,10 @@
   display: none;
 }
 
+#cSpecial {
+  display: none;
+}
+
 #d {
   display: none;
 }
@@ -35,4 +39,5 @@
 
 .thumbnail {
   min-height: 390px;
+  cursor: pointer;
 }

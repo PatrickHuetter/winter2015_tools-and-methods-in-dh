@@ -7,6 +7,7 @@ var easteregg = $('#lamborghini');
 var a = $('#a');
 var b = $('#b');
 var c = $('#c');
+var cSpecial = $('#cSpecial');
 var d = $('#d');
 
   // register onclick handler
@@ -37,7 +38,7 @@ var d = $('#d');
 
   $('#btnCodeNo').click(function(){
     b.hide();
-    fail.show();
+    cSpecial.show();
   });
 
   $('#btnCoFounder').click(function(){
@@ -47,6 +48,16 @@ var d = $('#d');
 
   $('#btnCoFounderWithoutShare').click(function(){
     c.hide();
+    fail.show();
+  });
+
+  $('#btnCoFounderS').click(function(){
+    cSpecial.hide();
+    d.show();
+  });
+
+  $('#btnCoFounderWithoutShareS').click(function(){
+    cSpecial.hide();
     fail.show();
   });
 
